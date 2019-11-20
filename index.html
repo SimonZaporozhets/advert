@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+   <header>
+       <div class="header">
+           <div class="container">
+               <div class="row">
+                   <div class="col-6 col-sm-6 col-md-6 col-lg-5 d-flex align-items-center">
+                       <div class="logo uppercase">
+                           лого
+                       </div>
+                   </div>
+                   <div class="d-none d-sm-none d-md-none col-md-4 col-lg-4 d-lg-flex align-items-center justify-content-end">
+                       <div class="contact-number">
+                          <img src="img/phone.png" alt="Call" class="phone-icon">
+                           +7 (921) 942-31-70
+                       </div>
+                   </div>
+                   <div class="col-6 col-sm-6 col-md-6 col-lg-3 d-flex align-items-center justify-content-end">
+                       <a href="#modal1" class="btn-call  popup-call">
+                           Заказать звонок
+                       </a>
+                       <img src="img/phone.png" alt="Call" class="xs-phone">
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="launching">
+           <div class="container">
+               <div class="row">
+                   <div class="col-md-12">
+                       <h1 class="header-title">
+                           Только мы <span class="white-sm">опла</span><span class="white-part-title">тим <br class="d-block d-sm-none"><span class="xs-black">Вам <span class="black-sm">з</span></span>апуск!</span>
+                       </h1>
+                   </div>
+               </div>
+               <div class="row">
+                   <div class="col-6 col-sm-6 col-md-6 d-flex justify-content-center">
+                       <div class="google-wrapper">
+                           <img src="img/google.png" alt="Google">
+                           <div class="name-company google-name">
+                               Google Adwords
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-6 col-sm-6 col-md-6 d-flex justify-content-center">
+                       <div class="yandex-wrapper">
+                           <img src="img/Yandex.png" alt="Yandex">
+                           <div class="name-company yandex-name">
+                               Яндекс Директ
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12 d-flex justify-content-center">
+                      <a href="#offers" class="btn-prices btn-price-offer">
+                           Цены
+                      </a>
+                  </div>
+               </div>
+           </div>
+       </div>
+   </header>
+   <section class="offers" id="offers">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-12 col-lg-6 d-flex justify-content-end">
+                   <div class="google-offer offer-wrapper">
+                       <img src="img/google-logo.png" alt="Google logo" class="logo-offer">
+                       <h2 class="offer-title">
+                           Google Adwords
+                       </h2>
+                       <div class="price-exist">
+                           В цену входит:
+                       </div>
+                       <ul class="offer-list">
+                           <li class="offer-item">Настройка</li>
+                           <li class="offer-item">Запуск</li>
+                           <li class="offer-item">Неделя поддержки</li>
+                       </ul>
+                       <div class="cost-offer">
+                           35 000 ₽
+                       </div>
+                       <div class="bonus-offer">
+                          +5 000 ₽ на баланс
+                       </div>
+                       <a href="#modal1" class="btn-order btn-prices popup-call">
+                           Заказать
+                       </a>
+                   </div>
+               </div>
+               <div class="col-md-12 col-lg-6">
+                   <div class="yandex-offer offer-wrapper">
+                       <img src="img/yandex-logo.png" alt="Yandex logo" class="logo-offer">
+                       <h2 class="offer-title">
+                           Яндекс Директ
+                       </h2>
+                       <div class="price-exist">
+                           В цену входит:
+                       </div>
+                       <ul class="offer-list">
+                           <li class="offer-item">Настройка</li>
+                           <li class="offer-item">Запуск</li>
+                           <li class="offer-item">Неделя поддержки</li>
+                       </ul>
+                       <div class="cost-offer">
+                           25 000 ₽
+                       </div>
+                       <div class="bonus-offer">
+                          +5 000 ₽ на баланс
+                       </div>
+                       <a href="#modal1" class="btn-order btn-prices popup-call">
+                           Заказать
+                       </a>
+                   </div>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col-md-12">
+                   <div class="order-both-wrapper">
+                       <a href="#modal1" class="order-both-btn popup-call">
+                            Заказать обе за 50 000 ₽
+                       </a>
+                       <div class="contact-number order-both-number">
+                          <img src="img/phone1.png" alt="Call" class="phone-icon">
+                           +7 (921) 942-31-70
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+<!--   POPUP FORM-->
+   <div class="modalka" id="modal1">
+	    <div class="popup-overlay">
+	        <div class="popup-form-wrapper">
+	            <h3 class="form-title">
+	                Форма обратной связи
+	            </h3>
+	            <div class="popup-close">
+	                ×
+	            </div>
+	            <form action="" class="main-form">
+                    <label for="name1">Имя<span class="ball">&#8226;</span></label> <br>
+	                <input type="text" name="name1" required placeholder="Петнов Николай">
+	                <label for="service">Услуга<span class="ball">&#8226;</span></label> <br>
+	                <select name="service" id=""  class="service-input">
+	                    <option value="Google Adwords и Яндекс Директ">Google Adwords и Яндекс Директ</option>
+	                </select>
+	                <label for="phone">Телефон<span class="ball">&#8226;</span></label> <br>
+	                <input type="tel" name="phone" required placeholder="+7 (923) 123-45-67">
+	                <label for="comment">Комментарий<span class="ball">&#8226;</span></label> <br>
+                    <textarea type="text" name="comment" required placeholder="Интересует комплексное прожвижение" class="comment"></textarea>
+	                <button type="submit" class="btn-prices btn-form">Заказать</button>
+	            </form>
+	        </div>
+	    </div>
+	</div>
+    
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

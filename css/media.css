@@ -1,0 +1,83 @@
+/* 992px - 1200px */
+@media screen  and (max-width: 1200px) {
+    .xs-phone {
+        display: none;
+    }
+    
+}
+
+/* 768px - 992px */
+@media screen  and (max-width: 992px) {
+    .contact-number {
+        display: none;
+    }
+    .offer-wrapper {
+        margin: 0px auto 60px auto;
+    }
+    .order-both-number {
+        display: block;
+    }
+}
+
+/* 576px - 768px */
+@media screen  and (max-width: 768px) {
+    .white-sm {
+        color: white;
+    }
+    .black-sm {
+        color: #333333;
+    }
+    .google-wrapper img, .yandex-wrapper img {
+        width: 120px;
+    }
+    .google-wrapper {
+        margin-top: 18px;
+    }
+    .google-wrapper, .yandex-wrapper {
+        text-align: center;
+    }
+    
+}
+
+/* 320px - 576px */
+@media screen  and (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+    .offer-wrapper {
+        width: 100%;
+        padding: 75px 0px;
+        border-radius: 0;
+    }
+    .order-both-btn {
+        padding: 20px 20px;
+        width: 280px;
+    }
+    .popup-form-wrapper {
+        border-radius: 0;
+    }
+    .logo {
+        font-size: 1.6em;
+    }
+    .btn-call {
+        width: 90px;
+        font-size: 0.77em;
+    }
+    .xs-phone {
+        margin-left: 10px;
+        display: block;
+    }
+    .header-title {
+        font-size: 1.4em;
+    }
+    .xs-black {
+        color: #333333 !important;
+    }
+    .popup-close {
+        right: 10px;
+    }
+    .popup-form-wrapper {
+        height: 100vh;
+    }
+}
+    
