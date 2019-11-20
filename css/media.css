@@ -27,6 +27,9 @@
     .black-sm {
         color: #333333;
     }
+    .xs-black {
+        color: #333333;
+    }
     .google-wrapper img, .yandex-wrapper img {
         width: 120px;
     }
