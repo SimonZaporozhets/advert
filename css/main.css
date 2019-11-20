@@ -212,7 +212,7 @@ a:hover {
 }
 .order-both-number {
     margin-top: 20px;
-    color: inherit;
+    color: #333333;
 }
 .order-both-btn:hover {
     background-image: linear-gradient(135deg, #040002 40%, #323132 );
