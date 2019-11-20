@@ -217,6 +217,9 @@ a:hover {
 .order-both-btn:hover {
     background-image: linear-gradient(135deg, #040002 40%, #323132 );
 }
+.rub {
+    font-family: 'PT Sans', serif;
+}
 
 /*POPUP FORM */
 
